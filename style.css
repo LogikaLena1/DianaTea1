@@ -1,0 +1,272 @@
+body {
+    background-color: #5D6B59;
+    /* Koicha використовується в японському чаепитті для церемонійного приготування. Має найвищу якість серед сортів чаю матча. Він вимагає більше порошку на чашку, щоб створити доволі густу для чаю консистенцію та досить унікальний смак. Для любителів - те, що треба! */
+
+
+font-family: 'Roboto';
+
+
+
+    
+}
+
+.link1{
+
+
+background: #B6D4AE;
+border-radius: 43px;
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+
+padding: 15px;
+color: #303F2B;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+.link1:hover{
+    background: #303F2B;
+    color:  #B6D4AE;;
+    transition: 0.4s;
+
+}
+header {
+    padding: 10px;
+
+background: #303F2B;
+
+width:100%;
+
+left: 0px;
+top: 120px; 
+
+
+
+/* TEA DREAMS */
+
+
+
+font-family: 'SeoulHangang CM';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+
+/* identical to box height */
+text-align: center;
+
+color: #B6D4AE;
+
+text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+nav {
+    /* Rectangle 7 */
+
+position: relative;
+width: 100%;
+padding: 10px;
+/* height:0px; */
+left: 0px;
+/* top: 144px; */
+
+background: #B6D4AE;
+box-shadow: 0px 10px 25.3px rgba(0, 0, 0, 0.35);
+display: inline-block;
+
+}
+ .header img {
+
+
+/* background: url(tea_logo_1-removebg-preview.png); */
+
+}
+.ggg {
+ /* Rectangle 19 */
+
+/* width: 117px;
+height: 44px; */
+background: #13210F;
+border: 5px solid #303F2B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* Головне */
+
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+
+text-align: center;
+
+
+}
+
+nav a {
+color: #6EA56B;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+text-decoration: none;
+
+display: inline-block;
+padding: 7px;
+margin: 10px;
+}
+main{
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.zamovlennya div {
+width: 50%;
+float: right;
+}
+.zamovlennya img {
+width: 50%;
+float: right;
+}
+.zamovlennya {
+    display: flex;
+    justify-content: space-between;
+}
+.catalog div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-family: 'Roboto';
+}
+.product h3 {
+    /* Koicha */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+/* line-height: 47px; */
+/* identical to box height */
+
+color: #000000;
+
+
+
+
+}
+nav a:hover {
+    box-shadow: 0px 5px 5px 0px #8bcd77;
+    transition: 0.3s;
+
+}
+a {
+    /* Rectangle 20 */
+padding: 10px;
+font-size: 30px;
+
+background: #303F2B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-left: 10px;
+text-decoration: none;
+
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+
+}
+.product img{
+    width: 40%;
+    float: left;
+}
+.product div{
+    width: 50%;
+    float: right;
+}
+.sale div{
+    display: flex;
+    justify-content: center;
+}
+.sale img{
+    width: 20%;
+    height: 20%;
+}
+h2{
+
+    padding: 10px;
+
+background: #303F2B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+width: 50%;
+
+color: #B6D4AE;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 100px auto;
+}
+
+.about_us p{
+
+
+background: #B6D4AE;
+border-radius: 40px;
+
+padding: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #11140F;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+footer{
+padding: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #5D6B59;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+background: #242D21;
+border-radius: 70px;
+
+}
+
+.logo{
+position: absolute;
+right: 20px;
+
+}
+.social img{
+    margin-left: 10px;
+}
